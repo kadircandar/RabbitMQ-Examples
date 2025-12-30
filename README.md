@@ -1,6 +1,18 @@
 # RabbitMQ & Docker Examples 🚀
 Bu repo, RabbitMQ mesaj kuyruğu sisteminin temel ve ileri düzey kullanım senaryolarını C# (.NET) dili ve Docker kullanarak uygulamalı olarak göstermektedir.,
 
+<img width="1270" height="889" alt="image" src="https://github.com/user-attachments/assets/9107ccae-7b08-4379-86d8-062551bcd53f" />
+
+
+# Temel Bileşenler:
+
+- **Producers (Üreticiler):** Mesaj gönderen uygulamalar.
+- **Exchange:** Mesajları yönlendiren birim (direct, topic, fanout, headers tipleri).
+- **Queues:** Mesajların saklandığı kuyruklar.
+- **Bindings:** Exchange ile Queue arasındaki bağlantılar (Routing Key ile).
+- **Consumers (Tüketiciler):** Kuyruktaki mesajları alıp işleyen uygulamadır.
+
+
 ## 📌 Desteklenen Mesajlaşma Modelleri
 - **Simple Queue:** Tek bir üreticiden tek bir tüketiciye basit mesaj iletimi.
 - **Work Queues:** Görevlerin birden fazla tüketici arasında paylaştırılması.
