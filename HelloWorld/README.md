@@ -17,7 +17,12 @@ Consumer.cs - RabbitMQ'dan mesaj alan uygulama
 - Gelen mesajları okur ve konsola yazdırır
 - Asenkron event handler kullanarak mesajları işler
 
-<br> <br>
+### 🚀 Başlamadan Önce
+Projeyi yerel makinenizde çalıştırmak için gereksinimler.
+- .NET SDK
+- Docker Desktop
+<br>
+
 **Docker üzerinde RabbitMQ çalıştırmak için gerekli komut:**
 ```text
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4-management
