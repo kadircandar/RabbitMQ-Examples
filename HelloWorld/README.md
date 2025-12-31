@@ -3,14 +3,15 @@ Bu örnekte, C# dilinde iki program yazacağız: tek bir mesaj gönderen bir pro
 
 # Proje Yapısı
 **1. Producer (Mesaj Gönderen)** 
-Producer.cs - RabbitMQ'ya mesaj gönderen uygulama
+Send.cs - RabbitMQ'ya mesaj gönderen uygulama
+
 - RabbitMQ sunucusuna bağlantı oluşturur (localhost)
 - hello adında bir kuyruk tanımlar
 - "Hello World!" mesajını bu kuyruğa gönderir
 - Mesajı byte dizisine dönüştürüp yayınlar
 
 **2. Consumer (Mesaj Alan)**
-Consumer.cs - RabbitMQ'dan mesaj alan uygulama
+Receive.cs - RabbitMQ'dan mesaj alan uygulama
 
 - RabbitMQ sunucusuna bağlantı oluşturur
 - hello kuyruğunu dinlemeye başlar
